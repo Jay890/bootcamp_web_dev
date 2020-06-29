@@ -3,6 +3,31 @@
   padding: 0;
 }
 
-div {
+/* div {
   background-color: #fbd46d;
+  width: 100%;
+  border: 50px solid black;
+} */
+
+div {
+  height: 200px;
+  width: 200px;
+}
+
+.top-container {
+  background-color: rebeccapurple;
+  border: 10px solid black;
+  padding: 20px;
+}
+
+.middle-container {
+  background-color: salmon;
+  border: 20px solid black;
+  margin-left: 260px;
+}
+
+.bottom-container {
+  background-color: skyblue;
+  border: 10px solid black;
+  margin-left: 500px;
 }
