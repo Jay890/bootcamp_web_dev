@@ -4,15 +4,31 @@
 }
 
 h1 {
-  width: 10%;
-  margin: 0 auto 0 auto;
+  /* margin: 0 auto 0 auto; */
 }
 
 body {
   text-align: center;
-  background-color: palevioletred;
+  background-color: #e6e6fa;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
 }
 
 .pro {
   text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  top: 180px;
 }
