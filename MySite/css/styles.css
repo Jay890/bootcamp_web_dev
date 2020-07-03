@@ -5,6 +5,7 @@
 
 h1 {
   font-family: 'Sacramento', cursive;
+  font-size: 5rem;
 }
 
 h2 {
@@ -44,7 +45,7 @@ body {
 .bottom-cloud {
   position: absolute;
   left: 30%;
-  top: 180px;
+  top: 280px;
 }
 
 .image {
