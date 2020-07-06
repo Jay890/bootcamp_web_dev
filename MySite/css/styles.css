@@ -27,6 +27,10 @@ a {
   color: #11999e;
 }
 
+p {
+  color: #40514e;
+}
+
 body {
   text-align: center;
   background-color: #e6e6fa;
@@ -35,12 +39,16 @@ body {
 .top-container {
   position: relative;
   padding-top: 100px;
+  background-color: #eaf6f6;
 }
 
 .middle-container {
+  background-color: white;
 }
 
 .bottom-container {
+  background-color: #66bfbf;
+  line-height: 80px;
 }
 
 .pro {
@@ -78,4 +86,26 @@ body {
   margin: 120px auto 120px auto;
   text-align: left;
   line-height: 2;
+}
+
+.center-dots {
+  margin: 0 auto;
+}
+
+td {
+  border-radius: 50%;
+  background-color: grey;
+  width: 5px;
+  height: 5px;
+  margin: 5px;
+}
+
+.footer-link {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.author {
+  color: #eaf6f6;
 }
