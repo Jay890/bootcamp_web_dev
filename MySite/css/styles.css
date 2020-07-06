@@ -109,3 +109,21 @@ td {
 .author {
   color: #eaf6f6;
 }
+
+.contact-me {
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+.contact-button {
+  background-color: #66bfbf;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #66bfbf;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-button:hover {
+  background-color: #11999e;
+}
