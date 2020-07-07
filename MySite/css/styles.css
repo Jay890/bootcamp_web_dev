@@ -54,6 +54,7 @@ hr {
 .bottom-container {
   background-color: #66bfbf;
   margin: 0;
+  padding: 50px 0 30px;
 }
 
 .pro {
@@ -94,14 +95,21 @@ hr {
 }
 
 .footer-link {
-  margin: 0 20px;
+  margin: 30px 20px;
   text-decoration: none;
   font-size: 1.2rem;
+  font-family: 'monserat', sans-serif;
+}
+
+.footer-link:hover {
+  color: yellow;
 }
 
 .author {
   color: #eaf6f6;
-  padding-top: 30px;
+  padding-top: 20px;
+  margin: 0;
+  font-size: 0.8em;
 }
 
 .contact-me {
