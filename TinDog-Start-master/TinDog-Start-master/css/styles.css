@@ -12,3 +12,11 @@ h1 {
 }
 
 /* font-family: 'Ubuntu', sans-serif; */
+
+.navbar-brand a {
+  color: white;
+}
+
+.row h1 {
+  color: white;
+}
