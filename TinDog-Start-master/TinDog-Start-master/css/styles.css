@@ -6,6 +6,10 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  text-align: center;
+}
+
 body {
   font-family: 'Montserrat-Black', sans-serif;
 }
@@ -67,11 +71,19 @@ body {
 }
 
 .col-sm {
-  text-align: center;
+  /* text-align: center; */
+  margin: auto;
+}
+
+.col-sm h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.4rem;
 }
 
 .col-sm p {
   text-align: inline-block;
+  color: #8f8f8f;
 }
 
 /* Class Styling End */
