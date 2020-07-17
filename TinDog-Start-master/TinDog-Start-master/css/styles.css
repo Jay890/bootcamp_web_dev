@@ -6,10 +6,6 @@ h1 {
   line-height: 1.5;
 }
 
-h3 {
-  text-align: center;
-}
-
 body {
   font-family: 'Montserrat-Black', sans-serif;
 }
@@ -61,29 +57,38 @@ body {
   color: white;
 }
 
-/* .btn {
-  margin-right: 10px;
-  margin-bottom: 30px;
-} */
-
 .download-button {
   margin: 5% 3% 10% 0;
 }
 
-.col-sm {
-  /* text-align: center; */
-  margin: auto;
+.box {
+  /* margin: auto; */
 }
 
-.col-sm h3 {
+.box h3 {
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.4rem;
 }
 
-.col-sm p {
-  text-align: inline-block;
+.box p {
+  /* text-align: inline-block; */
   color: #8f8f8f;
+}
+
+.box {
+  padding: 10% 5%;
+  text-align: center;
+}
+
+.fas {
+  font-size: 5rem;
+  color: pink;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: orange;
 }
 
 /* Class Styling End */
