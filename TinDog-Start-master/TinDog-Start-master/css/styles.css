@@ -91,4 +91,11 @@ body {
   color: orange;
 }
 
+/* Reviews section */
+
+#reviews {
+  padding: 7% 14%;
+  text-align: center;
+}
+
 /* Class Styling End */
