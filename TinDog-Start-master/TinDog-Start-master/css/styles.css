@@ -107,7 +107,6 @@ body {
 /* Reviews section */
 
 #reviews {
-  padding: 7% 14%;
   text-align: center;
   background-color: #ff4c68;
   color: #fff;
@@ -117,6 +116,10 @@ body {
   background-color: #ff4c68;
   text-align: center;
   padding-bottom: 3%;
+}
+
+.carousel-item {
+  padding: 7% 14%;
 }
 
 .press-logo {
