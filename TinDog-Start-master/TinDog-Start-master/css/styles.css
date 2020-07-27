@@ -159,4 +159,28 @@ body {
   line-height: 2;
 }
 
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  /* height: 200px; */
+  text-align: center;
+}
+
+.cta-heading {
+  padding: 3% 10%;
+}
+
+.cta-btn {
+  margin: 0 1.4% 3%;
+}
+
+/* Footer section */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  margin: 5% 0;
+}
+
 /* Class Styling End */
