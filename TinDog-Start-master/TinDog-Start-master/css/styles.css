@@ -1,20 +1,17 @@
 /* Tag selector Start */
 
-h1 {
-  font-family: 'Montserrat-Black', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat-Bold';
-  font-size: 3rem;
-  line-height: 1.3;
-  font-weight: bold;
 }
 
 body {
   font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
 }
 
 /* Tag selector End */
@@ -29,8 +26,33 @@ body {
 
 /* Class Styling Start */
 
-.container-fluid {
+/* Headings  */
+
+.top-title {
+  text-align: left;
+}
+
+.big-heading {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.3;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+}
+
+#title.container-fluid {
   padding: 3% 15% 7%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
 }
 
 #dog-image {
@@ -99,13 +121,7 @@ body {
 }
 
 .box p {
-  /* text-align: inline-block; */
   color: #8f8f8f;
-}
-
-.box {
-  padding: 10% 5%;
-  text-align: center;
 }
 
 .fas {
@@ -127,19 +143,13 @@ body {
 /* Reviews section */
 
 #reviews {
-  text-align: center;
   background-color: #ff4c68;
   color: #fff;
 }
 
 #press {
   background-color: #ff4c68;
-  text-align: center;
   padding-bottom: 3%;
-}
-
-.carousel-item {
-  padding: 7% 14%;
 }
 
 .press-logo {
@@ -147,16 +157,24 @@ body {
   margin: 20px 20px 50px;
 }
 
+.review-text {
+  font-size: 3rem;
+  line-height: 1.3;
+}
 /* Pricing Section */
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
   line-height: 2;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.3;
 }
 
 /* CTA section */
@@ -168,7 +186,6 @@ body {
 #cta {
   background-color: #ff4c68;
   /* height: 200px; */
-  text-align: center;
 }
 
 .cta-heading {
@@ -186,7 +203,6 @@ body {
 /* Footer section */
 
 #footer {
-  text-align: center;
   background-color: #fff;
   margin: 5% 0;
 }
