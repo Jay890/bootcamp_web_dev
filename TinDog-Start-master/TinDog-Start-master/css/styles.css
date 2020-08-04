@@ -16,14 +16,6 @@ body {
 
 /* Tag selector End */
 
-/* Id Styling Start */
-
-#title {
-  background-color: #ff4c68;
-}
-
-/* Id Styling End */
-
 /* Class Styling Start */
 
 /* Headings  */
@@ -72,6 +64,19 @@ body {
   }
 }
 
+/* Sections background */
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Navbar */
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -86,7 +91,6 @@ body {
 }
 
 .navbar-brand a {
-  color: white;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -95,22 +99,13 @@ body {
   text-transform: lowercase;
 }
 
-.row h1 {
-  color: white;
-}
-
 .download-button {
   margin: 5% 3% 10% 0;
-}
-
-.box {
-  /* margin: auto; */
 }
 
 /* Features Section */
 
 #features {
-  background-color: #fff;
   position: relative;
 }
 
@@ -142,13 +137,7 @@ body {
 
 /* Reviews section */
 
-#reviews {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 #press {
-  background-color: #ff4c68;
   padding-bottom: 3%;
 }
 
@@ -179,18 +168,8 @@ body {
 
 /* CTA section */
 
-.first-signup {
-  color: black;
-}
-
-#cta {
-  background-color: #ff4c68;
-  /* height: 200px; */
-}
-
 .cta-heading {
   padding: 3% 10%;
-  color: #fff;
   width: 50%;
   margin: 0 auto;
   font-family: 'Montserrat-Black';
@@ -203,7 +182,6 @@ body {
 /* Footer section */
 
 #footer {
-  background-color: #fff;
   margin: 5% 0;
 }
 
