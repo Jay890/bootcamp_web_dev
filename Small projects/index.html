@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="main-heading">Application to join CFV club</h1>
+      <p>
+        <strong>Note:</strong> Form is to be completed one week in advance prior
+        to joining
+      </p>
+
+      <form method="post">
+        <fieldset class="section">
+          <legend>Information</legend>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter name here"
+            required
+          /><br />
+          <label for="address">Address:</label>
+          <input
+            type="text"
+            required
+            name="address"
+            placeholder="Enter address here"
+          /><br />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            required
+            name="email"
+            placeholder="Enter email here"
+          /><br />
+          <label for="phone">Contact:</label>
+          <input
+            type="tel"
+            required
+            name="contact"
+            placeholder="Enter 10 digit numer"
+            min="1"
+            max="9"
+          /><br />
+          <p>Gender</p>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="other">Other</label>
+          <input type="radio" id="other" name="gender" value="other" /><br />
+          <label for="date">Date Applied</label>
+          <input type="date" name="date" />
+        </fieldset>
+        <fieldset class="section">
+          <p>Check all that apply</p>
+          <label for="beginner">Beginner</label>
+          <input
+            type="checkbox"
+            id="beginner"
+            name="beginner"
+            value="beginner"
+          /><br />
+          <label for="novice">Novice</label>
+          <input type="checkbox" id="novice" name="novice" value="novice" />
+          <br />
+          <label for="novice">Expert</label>
+          <input
+            type="checkbox"
+            id="expert"
+            name="expert"
+            value="expert"
+          /><br />
+          <label for="anime">Watched anime</label>
+          <input type="checkbox" id="anime" name="anime" value="anime" /><br />
+          <label for="games">Have played matches</label>
+          <input type="checkbox" id="games" name="games" value="games" /><br />
+          <label for="rules">Know the rules</label>
+          <input type="checkbox" id="rules" name="rules" value="rules" />
+        </fieldset>
+        <fieldset class="section">
+          <legend>Brief Introduction</legend>
+          <p>
+            In less than 100 words please introduce yourself and explain why you
+            wish to join the club.
+          </p>
+          <textarea>Enter Text Here...</textarea>
+          <p>If you wish to upload any supporting files you may here:</p>
+          <input type="file" id="myfile" name="file" />
+        </fieldset>
+        <div class="confirmation">
+          <button class="submission" type="submit" id="submit">
+            Submit your application
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
