@@ -60,3 +60,7 @@ main {
   height: 250px;
   width: 500px;
 }
+
+.footer {
+  font-size: 0.9em;
+}
